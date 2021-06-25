@@ -41,8 +41,8 @@ class Result
       }
       
       List<int> result = new List<int>();
-result.Add(alice);
-result.Add(bob);
+      result.Add(alice);
+      result.Add(bob);
       return result;
     }
 
