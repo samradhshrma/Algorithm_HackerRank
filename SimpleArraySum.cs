@@ -16,15 +16,14 @@ class Result
 {
     public static int simpleArraySum(List<int> ar)
     {
-      int sum = 0;
-      Int32 length = ar.Count;
-    for (int i = 0; i < length; i++)
-{
-    sum += ar[i];
-
-}
-return sum;
-}
+      var sum = 0;
+      var length = ar.Count;
+      for (int i = 0; i < length; i++)
+       {
+         sum += ar[i];
+       }
+      return sum;
+     }
 }
 
 class Solution
