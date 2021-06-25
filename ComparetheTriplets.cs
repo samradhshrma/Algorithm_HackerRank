@@ -26,9 +26,9 @@ class Result
 
     public static List<int> compareTriplets(List<int> a, List<int> b)
     {
-        Int32 length = a.Count;
-        int alice=0;
-        int bob=0;
+        var length = a.Count;
+        var alice=0;
+        var bob=0;
       for(int i=0;i< length;i++)
       {
           if(a[i]>b[i])
