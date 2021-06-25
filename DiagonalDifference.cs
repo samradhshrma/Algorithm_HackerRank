@@ -17,8 +17,8 @@ class Result
 
     public static int diagonalDifference(List<List<int>> arr)
     {
-        int Left_Sum=0;
-        int Right_Sum=0;
+        var Left_Sum=0;
+        var Right_Sum=0;
         for(int i=0;i<arr.Count;i++)
         {
             Left_Sum+=arr[i][i];
