@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 class Solution {
 
-    static int solveMeFirst(int a, int b) { 
-      int c=a+b;
-      return c; 
-      
-    }
+    static int solveMeFirst(int a, int b) {
+      return a+b; 
+     }
 
     static void Main(String[] args) {
         int val1 = Convert.ToInt32(Console.ReadLine());
