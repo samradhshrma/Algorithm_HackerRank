@@ -17,10 +17,10 @@ class Result
 {
     public static void plusMinus(List<int> arr)
     {
-        var  positive=0; 
-        var  negative=0;
-        var  zero=0;
-        for(int i=0;i<arr.Count;i++)
+        double  positive=0; 
+        double  negative=0;
+        double  zero=0;
+        for(var i=0;i<arr.Count;i++)
         {
             if(arr[i]>0)
                ++positive;
@@ -30,9 +30,9 @@ class Result
                ++zero;
             
         }
-        WriteLine((double)positive/ arr.Count);
-        WriteLine((double)negative / arr.Count);
-        WriteLine((double)zero/ arr.Count);
+        WriteLine(positive/ arr.Count);
+        WriteLine(negative / arr.Count);
+        WriteLine(zero/ arr.Count);
 
     }
 
