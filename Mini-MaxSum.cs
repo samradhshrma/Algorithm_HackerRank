@@ -16,10 +16,10 @@ class Result
 {
     public static void miniMaxSum(List<int> arr)
     {
-       var min = long.MaxValue;
-       var max = 0L;
-       var sum = 0L;
-       for (int i = 0; i < 5; i++)
+        var min = long.MaxValue;
+        var max = 0L;
+        var sum = 0L;
+        for (int i = 0; i < arr.Count; i++)
         {
             sum += arr[i];
             if (arr[i] < min)
