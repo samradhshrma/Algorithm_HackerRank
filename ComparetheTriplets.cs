@@ -38,12 +38,10 @@ class Result
             else if(a[i]<b[i]){
                 bob=1+bob;
         }
-    }
-      
-      List<int> result = new List<int>();
-      result.Add(alice);
-      result.Add(bob);
-      return result;
+        List<int> result = new List<int>();
+        result.Add(alice);
+        result.Add(bob);
+        return result;
     }
 
 }
