@@ -26,19 +26,19 @@ class Result
 
     public static List<int> compareTriplets(List<int> a, List<int> b)
     {
-      var length = a.Count;
-      var alice=0;
-      var bob=0;
-      for(int i=0;i< length;i++)
-      {
-          if(a[i]>b[i])
-          {
-              alice=1+alice;
-          }
-          else if(a[i]<b[i]){
-              bob=1+bob;
-          }
-      }
+       var length = a.Count;
+       var alice=0;
+       var bob=0;
+       for(var i=0;i< length;i++)
+       {
+         if(a[i]>b[i])
+         {
+           alice=1+alice;
+         }
+         else if(a[i]<b[i]){
+           bob=1+bob;
+       }
+    }
       
       List<int> result = new List<int>();
       result.Add(alice);
