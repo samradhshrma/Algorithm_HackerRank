@@ -16,7 +16,7 @@ class Result
 {
     public static long aVeryBigSum(List<long> ar)
     {
-        long sum=0;
+        var sum = 0L;
         for(int i=0;i< ar.Count;i++)
         {
             sum+=ar[i];
