@@ -42,7 +42,7 @@ class Result
           }
            
       }
-      List<int> result = new List<int> {highest_count,lowest_count  };
+      var<int> result = new List<int> {highest_count,lowest_count  };
       return result;
       
     }
