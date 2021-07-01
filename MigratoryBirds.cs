@@ -15,7 +15,7 @@ using System;
 class Result
 {
 
-    /*
+    /*link : https://www.hackerrank.com/challenges/migratory-birds/problem
      * Complete the 'migratoryBirds' function below.
      *
      * The function is expected to return an INTEGER.
