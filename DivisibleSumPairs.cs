@@ -15,7 +15,8 @@ using System;
 class Result
 {
 
-    /*
+    /*link: https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
+
      * Complete the 'divisibleSumPairs' function below.
      *
      * The function is expected to return an INTEGER.
