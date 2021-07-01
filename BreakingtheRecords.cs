@@ -15,7 +15,8 @@ using System;
 class Result
 {
 
-    /*
+    /*link: https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+
      * Complete the 'breakingRecords' function below.
      *
      * The function is expected to return an INTEGER_ARRAY.
