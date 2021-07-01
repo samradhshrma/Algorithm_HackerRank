@@ -15,7 +15,7 @@ using System;
 class Result
 {
 
-    /*
+    /*Link: https://www.hackerrank.com/challenges/the-birthday-bar/problem
      * Complete the 'birthday' function below.
      *
      * The function is expected to return an INTEGER.
