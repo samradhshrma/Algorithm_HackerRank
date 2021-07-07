@@ -27,8 +27,8 @@ class Result
 
     public static string appendAndDelete(string s, string t, int k)
     {
-        int lcp = 0;
-        for (int i = 0; i < Math.Min(s.Length, t.Length); i++)
+        var lcp = 0;
+        for (var i = 0; i < Math.Min(s.Length, t.Length); i++)
         {
             if (s[i] == t[i]) 
             {
@@ -39,8 +39,8 @@ class Result
               break;
             }
         }
-        int minK = s.Length + t.Length - 2 * lcp;
-        int maxK = s.Length + t.Length;
+        var minK = s.Length + t.Length - 2 * lcp;
+        var maxK = s.Length + t.Length;
         if (k >= maxK || (k >= minK && (k - minK) % 2 == 0)) 
         {
             return "Yes";
