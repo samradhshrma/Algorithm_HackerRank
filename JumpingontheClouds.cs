@@ -15,7 +15,7 @@ using System;
 class Result
 {
 
-    /*
+    /*link: https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
      * Complete the 'jumpingOnClouds' function below.
      *
      * The function is expected to return an INTEGER.
