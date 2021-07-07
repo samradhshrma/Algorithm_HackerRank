@@ -15,7 +15,7 @@ using System;
 class Result
 {
 
-    /*
+    /*link:https://www.hackerrank.com/challenges/cut-the-sticks/problem
      * Complete the 'cutTheSticks' function below.
      *
      * The function is expected to return an INTEGER_ARRAY.
