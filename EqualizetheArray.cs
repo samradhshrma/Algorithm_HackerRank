@@ -25,7 +25,7 @@ class Result
     public static int equalizeArray(List<int> arr)
     {
         var list = new Dictionary<int, int>();
-        for (int i = 0; i < arr.Count; i++)
+        for (var i = 0; i < arr.Count; i++)
         {
             if (list.ContainsKey(arr[i]))
                 list[arr[i]]++;
